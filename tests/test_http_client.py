@@ -18,17 +18,6 @@ class TestHttpClient:
         return BaseHttpClient()
 
     @pytest.fixture
-    def habr_article(self) -> str:
-        with open(
-            "tests/data/habr_article.html",
-            "r",
-            encoding="utf-8"
-        ) as f:
-            content = f.read()
-
-        return content
-
-    @pytest.fixture
     def habr_article_response(self, habr_article: str) -> Response:
         response = Response(
             status_code=200,
