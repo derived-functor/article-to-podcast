@@ -1,0 +1,18 @@
+[project]
+name = "article-to-podcast"
+version = "0.1.0"
+description = "App for creating AI podcasts from article"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[dependency-groups]
+dev = [
+    "bandit>=1.9.2",
+    "pylint>=4.0.4",
+    "pytest>=9.0.1",
+    "pytest-asyncio>=1.3.0",
+    "pytest-cov>=7.0.0",
+]
