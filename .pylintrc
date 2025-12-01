@@ -42,7 +42,6 @@ jobs=4
 # active Python interpreter and may run arbitrary code.
 unsafe-load-any-extension=no
 
-
 [MESSAGES CONTROL]
 
 # Only show warnings with the listed confidence levels. Leave empty to show
@@ -173,7 +172,7 @@ evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / stateme
 [BASIC]
 
 # Good variable names which should always be accepted, separated by a comma
-good-names=main,_
+good-names=main,_,TInput,TOutput
 
 # Bad variable names which should always be refused, separated by a comma
 bad-names=
