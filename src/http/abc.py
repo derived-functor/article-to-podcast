@@ -9,7 +9,7 @@ from .models import Method
 
 class HttpClient(ABC):
     """Абстрактный HTTP-клиент"""
-    
+
     @abstractmethod
     async def request(
         self,
