@@ -5,6 +5,7 @@ description = "App for creating AI podcasts from article"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "httpx>=0.28.1",
 ]
 
